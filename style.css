@@ -1032,7 +1032,7 @@ label {
         opacity: 1; 
         transform: translateY(0);
         margin-top: 2rem; 
-         z-index:10;
+         z-index:100;
     }
     .collections ul{
         display:flex;
@@ -1046,7 +1046,7 @@ label {
         object-fit:cover;
     }
    .best-sellers{
-       display:none;
+       display:none !important;
    }
    .banner{
     display:flex;
