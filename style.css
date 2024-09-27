@@ -1011,10 +1011,7 @@ label {
         display:none;
     }
     nav .main .logo{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        margin-left:15rem;
+        margin-left: 0;
 
     }
     .hero .next{
