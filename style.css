@@ -1097,8 +1097,11 @@ label {
     display: none;
    }
    .footer .list2 .first{
-    padding-left:7rem;
+    padding-left:6rem;
    }
+    .footer .list2 p{
+        padding-left:1rem;
+    }
    .footer .list1 form {
         display: flex;
         flex-direction: row; 
