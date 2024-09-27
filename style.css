@@ -1084,7 +1084,7 @@ label {
     display:flex;
     flex-direction:column;
     margin:0;
-    padding-left:8rem;
+    padding-left:9rem;
     
    }
    .footer .list1 p{
@@ -1100,7 +1100,7 @@ label {
     padding-left:7rem;
    }
     .footer .cube2 .list2 .first p{
-        padding-left:2.5rem;
+        padding-left:3.5rem;
     }
    .footer .list1 form {
         display: flex;
