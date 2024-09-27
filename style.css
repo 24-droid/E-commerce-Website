@@ -1099,7 +1099,25 @@ label {
    .footer .list2 .first{
     padding-left:6rem;
    }
-    .footer .explore{
-        margin-right:4rem;
+    .footer .list1 form {
+        display: flex;
+        flex-direction: column; 
+        gap: 1rem; 
+    }
+
+    .footer .list1 form .search-bar {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer .list1 form .search-bar input {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .footer .list1 form button {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
     }
 }
