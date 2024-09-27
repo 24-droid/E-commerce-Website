@@ -1003,6 +1003,12 @@ label {
     outline: none;
 }
 @media  screen and (max-width:786px){
+    body{
+        width:100vw;
+    }
+    body .container{
+        width:100%;
+    }
     .header .box{
         width:100%;
         height:100%;
