@@ -1099,4 +1099,7 @@ label {
    .footer .list2 .first{
     padding-left:6rem;
    }
+    .footer .explore{
+        padding-right:4rem;
+    }
 }
