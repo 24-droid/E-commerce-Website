@@ -1014,7 +1014,7 @@ label {
         display:flex;
         justify-content:center;
         align-items:center;
-        margin-left:15rem;
+        margin-left:0;
 
     }
     .hero .next{
@@ -1025,8 +1025,8 @@ label {
         flex-direction:column;
     }
     .collections li{
-        width:40vw;
-        height:40vw;
+        width:100%;
+        height:auto;
     }
     .collections li img{
         object-fit:cover;
@@ -1036,7 +1036,7 @@ label {
     flex-direction: column;
    }
    .best-sellers .top .tail{
-    font-size:1.5rem;
+    font-size:1.2rem;
    }
    .best-sellers ul{
     display:none;
@@ -1049,8 +1049,8 @@ label {
     display:flex;
     flex-direction:column;
    }
-   .banner .girl{
-    width:90vw;
+   .banner .girl,.banner .product{
+    width:100%;
    }
    .feauture .boxes{
     display:flex;
@@ -1075,7 +1075,7 @@ label {
     
    }
    .footer .list1 p{
-    font-size:1.5rem;
+    font-size:1rem;
    }
    .footer .list2 .logo{
     display:none;
