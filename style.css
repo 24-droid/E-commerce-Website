@@ -1097,10 +1097,10 @@ label {
     display: none;
    }
    .footer .list2 .first{
-    padding-left:6rem;
+    padding-left:7rem;
    }
-    .footer .list2 p{
-        padding-left:1rem;
+    .footer .cube2 .list2 .first p{
+        padding-left:2.5rem;
     }
    .footer .list1 form {
         display: flex;
