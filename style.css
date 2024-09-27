@@ -1023,6 +1023,10 @@ label {
     .hero .next{
         display:none;
     }
+    .hero ul .hero-section {
+        gap:2rem;
+        margin-left:5rem;
+    }
     .collections ul{
         display:flex;
         flex-direction:column;
