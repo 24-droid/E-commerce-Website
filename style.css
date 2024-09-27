@@ -1067,6 +1067,12 @@ label {
    .footer{
     width:100vw;
    }
+     .footer .cube1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+}
    .footer .list1{
     display:flex;
     flex-direction:column;
