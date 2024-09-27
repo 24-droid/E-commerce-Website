@@ -1002,3 +1002,88 @@ label {
 .text-muted2:focus {
     outline: none;
 }
+@media  screen and (max-width:768px){
+    .header .box{
+        width:100%;
+        height:100%;
+    }
+    nav .search-bar,nav .main .list, nav .favourites{
+        display:none;
+    }
+    nav .main .logo{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-left:15rem;
+
+    }
+    .hero .next{
+        display:none;
+    }
+    .collections ul{
+        display:flex;
+        flex-direction:column;
+    }
+    .collections li{
+        width:40vw;
+        height:40vw;
+    }
+    .collections li img{
+        object-fit:cover;
+    }
+   .best-sellers .top{
+    display:flex;
+    flex-direction: column;
+   }
+   .best-sellers .top .tail{
+    font-size:1.5rem;
+   }
+   .best-sellers ul{
+    display:none;
+    overflow-x:hidden;
+   }
+   .best-sellers ul li:first-child{
+    display:block;
+   }
+   .banner{
+    display:flex;
+    flex-direction:column;
+   }
+   .banner .girl{
+    width:90vw;
+   }
+   .feauture .boxes{
+    display:flex;
+    flex-direction:column;
+   }
+   .offer .contains{
+    display:flex;
+    flex-direction:column;
+   }
+   .discover ul{
+    display:flex;
+    flex-direction:column;
+   }
+   .footer{
+    width:100vw;
+   }
+   .footer .list1{
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    padding-left:8rem;
+    
+   }
+   .footer .list1 p{
+    font-size:1.5rem;
+   }
+   .footer .list2 .logo{
+    display:none;
+   }
+   .footer .list2 li img{
+    display: none;
+   }
+   .footer .list2 .first{
+    padding-left:6rem;
+   }
+}
