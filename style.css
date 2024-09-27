@@ -1079,12 +1079,11 @@ label {
    .footer .list1{
     display:flex;
     flex-direction:column;
-    margin:0;
-    padding-left:10rem;
+    margin-left:10rem;
     
    }
     .footer .list1 h6{
-        padding-left:4rem;
+        margin-left:4rem;
     }
    .footer .list1 p{
     font-size:1rem;
