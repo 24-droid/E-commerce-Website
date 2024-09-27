@@ -1086,4 +1086,7 @@ label {
    .footer .list2 .first{
     padding-left:6rem;
    }
+    .container{
+        width:150vw;
+    }
 }
