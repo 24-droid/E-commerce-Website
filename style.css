@@ -1107,6 +1107,7 @@ label {
         gap: 0.5rem;
         width: 100%;
         align-items: center; 
+       text-wrap:balance;
     }
 
     .footer .list1 form .search-bar {
